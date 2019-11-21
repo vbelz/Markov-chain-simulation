@@ -3,6 +3,7 @@ import pandas as pd
 
 #Transition probabilities matrix
 df_Q = pd.read_csv('data/Q_matrix.csv', index_col=0)
+
 #States of Markov chain
 STATES = ['entrance', 'drinks', 'dairy', 'fruit', 'spices', 'checkout']
 
